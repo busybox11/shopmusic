@@ -1,0 +1,14 @@
+{
+  "name": "Shop music when browsing",
+  "version": "1.0",
+  "manifest_version": 3,
+  "description": "Browse your favorite market websites with the best music",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {},
+  "permissions": [
+    "offscreen",
+    "tabs"
+  ]
+}
